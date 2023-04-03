@@ -14,6 +14,7 @@ header > h1 {
     font-family: 'Ubuntu', sans-serif;
 }
 header {
+    width: 100vw;
     text-align: center;
     background-color: #D9BBB0;
     padding-bottom: 15px;
@@ -31,4 +32,33 @@ nav a:hover {
     color: white;
     padding: 18px;
     border-radius: 15px;
+}
+section {
+    width: 100vw;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+#sc1 {
+    background-color: #D9BBB0;
+}
+.bmw > img{
+    flex: 50%;
+    text-align: center;
+}
+#sc2{
+    background-color: #594A48
+}
+.conteudo1 {
+    flex: 50%;
+    color: white;
+}
+.img2{
+    flex: 50%;
+    text-align: center;
+}
+.conteudo2 {;
+    color: white;
+    flex: 50%;
 }
