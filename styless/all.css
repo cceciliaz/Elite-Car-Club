@@ -2,11 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
 }
 header > h1 {
     text-align: left;
@@ -34,11 +38,17 @@ nav a:hover {
     border-radius: 15px;
 }
 section {
+    font-family: 'Staatliches', cursive;
     width: 100vw;
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+}
+h1 {
+    color: #08000D;
+    margin-bottom: 30px;
+    margin-left: 30%;
 }
 #sc1 {
     background-color: #D9BBB0;
@@ -83,4 +93,23 @@ section {
 .conteudo4 {;
     color: white;
     flex: 50%;
+}
+#bnt{
+    background-color: #8FADBF;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200px;
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#bnt:hover {
+    background-color: #08000D;
+    color: bisque;
 }
