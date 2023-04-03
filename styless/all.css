@@ -48,7 +48,7 @@ section {
     text-align: center;
 }
 #sc2{
-    background-color: #594A48
+    background-color: #594A48;
 }
 .conteudo1 {
     flex: 50%;
@@ -70,6 +70,17 @@ section {
     text-align: center;
 }
 .conteudo3 {;
+    color: white;
+    flex: 50%;
+}
+#sc4{
+    background-color: #594A48;
+}
+.img4 {
+    flex: 50%;
+    text-align: center;
+}
+.conteudo4 {;
     color: white;
     flex: 50%;
 }
