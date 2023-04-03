@@ -62,3 +62,14 @@ section {
     color: white;
     flex: 50%;
 }
+#sc3{
+    background-color: #D9BBB0;
+}
+.img3 {
+    flex: 50%;
+    text-align: center;
+}
+.conteudo3 {;
+    color: white;
+    flex: 50%;
+}
